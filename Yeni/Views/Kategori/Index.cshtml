@@ -1,0 +1,30 @@
+﻿@model List<Kategoriler>
+
+@{
+    Layout = "_AdminLayout";
+}
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>   
+        <th>KategoriAdi</th>
+        <th>Kategori Resmi</th>
+        <th>Sil</th>
+        <th>Güncelle</th>   
+  
+    </tr>
+
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.KategoriId</td>
+            <td>@item.KategoriAdi</td>
+            <td><img src="~/Resimler/@item.KategoriResmi" style=" width:200px;height:100px"/></td>
+            <td><a href="/Kategori/KategoriGet/@item.KategoriId" class="btn btn-primary">Güncelle </a></td>
+            <td><a href="/Kategori/KategoriSil/@item.KategoriId" class="btn btn-danger"> Sil</a> </td>
+       
+            
+        </tr>
+    }
+
+</table>
+<a href="/Kategori/KategoriEkle" class="btn btn-success">Ekle</a>

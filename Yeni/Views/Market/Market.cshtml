@@ -1,0 +1,28 @@
+﻿@model List<Urunler>
+
+
+
+<div class="container ">
+    <form method="post" class="row">
+
+        @foreach(var item in Model){
+
+        <div class="card col-sm-3 mx-auto mt-3" style="width:18rem;">
+            <label>@item.UrunId</label>
+            <img class="card-img-top" src="~/Resimler/@item.UrunResmi" alt="Card image cap" style="width:auto; height:150px">
+            <div class="d-flex flex-column card-body">
+             
+                <h5 class="card-title">@item.UrunAdi</h5>
+                <p class="card-text">@item.UrunAciklamasi</p>
+
+
+          
+            </div> 
+            
+        </div>
+  
+        }
+        <a href="/market/sepeteekle" class="btn btn-success">UrunEkleme</a>
+    </form>
+</div>
+

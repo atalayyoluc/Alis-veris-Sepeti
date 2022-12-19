@@ -1,0 +1,12 @@
+﻿@model Satisler
+
+@using (Html.BeginForm("SepetEkle", "Sepet", FormMethod.Post))
+{
+
+@Html.LabelFor(x=>x.SatisAdi)
+@Html.TextBoxFor(x=>x.SatisAdi,new{@class="form-control"})
+<br />
+<button class="btn btn-info">Kaydet</button>
+
+
+}

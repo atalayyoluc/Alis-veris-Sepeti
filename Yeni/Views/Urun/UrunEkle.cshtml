@@ -1,0 +1,27 @@
+﻿@using Yeni.DTO
+@model UrunEkleDTO
+@{
+    Layout = "_AdminLayout";
+}
+
+<form class="form-group" asp-action="UrunEkle" asp-controller="Urun" method="post" enctype="multipart/form-data">
+
+<br />
+@Html.LabelFor(x=>x.UrunAdi)
+@Html.TextBoxFor(x=>x.UrunAdi, new{@class="form-control"})
+@Html.ValidationMessageFor(x=>x.UrunAdi,"",new{@style="color:red"})
+<br />
+@Html.LabelFor(x=>x.KategoriId)
+@Html.DropDownListFor(x=>x.KategoriId,(List<SelectListItem>)ViewBag.kategori1,new {@class="form-control"})
+<br />
+@Html.LabelFor(x=>x.UrunResmi)
+<input type="file" name="UrunResmi"/>
+<br />
+@Html.LabelFor(x=>x.UrunAciklamasi)
+@Html.TextBoxFor(x=>x.UrunAciklamasi,new{@class="form-control"})
+<br />
+
+<button class="btn btn-info">Ekle</button>
+
+
+</form>

@@ -1,0 +1,22 @@
+﻿@model Kategoriler
+
+@{
+    Layout = "_AdminLayout";
+}
+
+
+@using (Html.BeginForm("KategoriGuncelle", "Kategori", FormMethod.Post))
+{
+
+    @Html.LabelFor(x=>x.KategoriAdi)
+    @Html.TextBoxFor(x=>x.KategoriAdi, new{@class="form-control"})
+    <br />
+    @Html.LabelFor(x=>x.KategoriResmi)
+    @Html.TextBoxFor(x=>x.KategoriResmi,new{@class="form-control"})
+    
+    @Html.TextBoxFor(x=>x.KategoriId, new {@class="form-control invisible"})
+
+    <button class="btn btn-info">Güncelle</button>
+
+
+}

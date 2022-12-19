@@ -1,0 +1,19 @@
+﻿@model SatisDetaylari
+
+
+
+@using (Html.BeginForm("SepeteEkle", "Market", FormMethod.Post))
+{
+    @Html.LabelFor(x=>x.SatisId)
+    @Html.DropDownListFor(x=>x.SatisId,(List<SelectListItem>)ViewBag.satis,new {@class="form-control"})
+
+@Html.LabelFor(x=>x.UrunId)
+@Html.TextBoxFor(x=>x.UrunId,new{@class="form-control"})
+    @Html.LabelFor(x=>x.UrunMiktari)
+    @Html.TextBoxFor(x=>x.UrunMiktari,new{@class="form-control"})
+
+<br />
+<button class="btn btn-info">Kaydet</button>
+
+
+}

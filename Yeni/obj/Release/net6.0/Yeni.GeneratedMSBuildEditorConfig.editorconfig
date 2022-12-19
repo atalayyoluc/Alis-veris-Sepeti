@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Yeni
+build_property.RootNamespace = Yeni
+build_property.ProjectDir = C:\Users\Atalay\Desktop\AtalayYolüçBitirmeÖdeviAlışverişSepeti\AlışverişSepeti\AtalayYolüç\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Atalay\Desktop\AtalayYolüçBitirmeÖdeviAlışverişSepeti\AlışverişSepeti\AtalayYolüç
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Account/SingUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaW5nVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Kategori/KategoriEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcS2F0ZWdvcmlFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Kategori/KategoriGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcS2F0ZWdvcmlHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Market/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Market/Market.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XE1hcmtldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Market/SepetDetaylari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XFNlcGV0RGV0YXlsYXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Market/SepeteEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XFNlcGV0ZUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Sepet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VwZXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Sepet/SepetEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VwZXRcU2VwZXRFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Sepet/SepetGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VwZXRcU2VwZXRHdW5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Urun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Urun/UrunEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Urun/UrunGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuR3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Atalay/Desktop/AtalayYolüçBitirmeÖdeviAlışverişSepeti/AlışverişSepeti/AtalayYolüç/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9hlzw5cu5x

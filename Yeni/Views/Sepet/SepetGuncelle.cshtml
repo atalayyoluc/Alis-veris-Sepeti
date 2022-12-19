@@ -1,0 +1,12 @@
+﻿
+@model Satisler
+@using (Html.BeginForm("SepetGuncelle", "Sepet", FormMethod.Post))
+{
+
+    @Html.LabelFor(x=>x.SatisAdi)
+    @Html.TextBoxFor(x=>x.SatisAdi,new{@class="form-control"})  
+    @Html.TextBoxFor(x=>x.SatisId, new {@class="form-control invisible"})
+        <button class="btn btn-info">Güncelle</button>
+
+
+}

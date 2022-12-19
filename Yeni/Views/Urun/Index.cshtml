@@ -1,0 +1,33 @@
+﻿@model List<Urunler>
+@{
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>   
+        <th>UrunAdı</th>
+        <th>Kategori Adı</th>
+        <th>Ürün Açıklaması</th>
+        <th>Ürün Resmi</th>
+        <th>Sil</th>
+        <th>Güncelle</th>   
+
+
+    </tr>
+    @foreach (var item in Model)
+    {
+            <tr>
+            <td>@item.UrunId</td>
+            <td>@item.UrunAdi</td>
+            <td>@item.Kategori.KategoriAdi</td>
+            <td>@item.UrunAciklamasi</td>
+            <td><img src="/Resimler/@item.UrunResmi" style="width:100px;height:100px"/></td>
+            <td><a href="/Urun/UrunSil/@item.UrunId" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Urun/UrunGuncelle/@item.UrunId" class="btn btn-primary">Update</a></td>
+
+            </tr>
+    }
+
+</table>
+<td><a href="/Urun/UrunEkle" class="btn btn-success">Ekle</a></td>

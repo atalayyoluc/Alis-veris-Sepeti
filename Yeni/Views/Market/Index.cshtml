@@ -1,0 +1,28 @@
+﻿@using Yeni.DTO;
+@model List<SepetDetayDTO>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>   
+        <th>Sepet Adı</th>
+        <th>Sepet Detay</th>
+        <th>Urun Miktarı</th>
+        <th>Güncelle</th>   
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+            <tr>
+              <td>@item.ID</td>
+              <td>@item.Ad</td>
+              <td>@item.Kontrol</td>
+              <td>@item.Miktar</td>
+              <td><a href="/market/AlisVerisKontrol/@item.ID" class="btn btn-primary">Alış Verişe Çık</a></td>
+              <td><a href="/market/SepetDetaylari/@item.ID" class="btn btn-danger">Alış Veriş Detayları </a></td>
+              <td><a href="/market/AlisVerisiBitir/@item.ID" class="btn btn-info">Alış Verişi Bitir</a></td>
+            </tr>
+    }
+
+</table>
+<a href="/market/market" class="btn btn-success">Urunler</a>

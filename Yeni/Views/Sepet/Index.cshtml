@@ -1,0 +1,28 @@
+﻿@using Yeni.DTO
+@model List<Satisler>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>SepetAdi</th>
+
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.SatisId</td>
+            <td>@item.SatisAdi</td>
+
+            <td><a href="/Sepet/SatisSil/@item.SatisId" class="btn btn-danger">SepetSil</a></td>
+            <td><a href="/Sepet/SepetGuncelle/@item.SatisId" class="btn btn-primary">Güncelle</a></td>
+        </tr>
+   
+    }
+    <td> <a href="/Sepet/SepetEkle" class="btn btn-success">Ekle</a></td>
+

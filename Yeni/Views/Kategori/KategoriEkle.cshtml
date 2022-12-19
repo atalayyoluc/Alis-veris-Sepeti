@@ -1,0 +1,22 @@
+﻿@using Yeni.DTO
+@model KategoriEkleDTO
+@{
+    Layout = "_AdminLayout";
+}
+
+<form class="form-group" asp-action="KategoriEkle" asp-controller="Kategori" method="post" enctype="multipart/form-data">
+
+    
+
+    @Html.LabelFor(x=>x.KategoriAdi)
+    @Html.TextBoxFor(x=>x.KategoriAdi, new{@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.KategoriAdi,"",new{@style="color:red"})
+    <br />
+    @Html.LabelFor(x=>x.KategoriResmi)
+    <input type="file" name="KategoriResmi" />
+    <br />
+    <button class="btn btn-info">Ekle</button>
+
+    </form>
+
+     
